@@ -3247,7 +3247,7 @@ const r=[{tfOpName:"Add",category:"arithmetic",inputs:[{start:0,name:"a",type:"t
  * limitations under the License.
  * =============================================================================
  */
-function h(t,e=null,n=!1){const l=Object(r["a"])(t,"x","logSumExp"),h=Object(a["parseAxisParam"])(e,l.shape),b=Object(u["a"])(l,h,!0),m=Object(p["a"])(l,b),g=Object(i["a"])(m),y=Object(f["a"])(g,h),v=Object(c["a"])(y),x=Object(o["a"])(Object(d["a"])(b,v.shape),v);if(n){const t=Object(s["e"])(x.shape,h);return Object(d["a"])(x,t)}return x}const b=Object(l["a"])({logSumExp_:h})},b041:function(t,e,n){"use strict";var r=n("00ee"),a=n("f5df");t.exports=r?{}.toString:function(){return"[object "+a(this)+"]"}},b21c:function(t,e,n){"use strict";n.d(e,"a",(function(){return l}));var r=n("6ae2"),a=n("c05b"),o=n("76c2"),s=n("a3f7"),i=n("526f"),c=n("54ef");
+function h(t,e=null,n=!1){const l=Object(r["a"])(t,"x","logSumExp"),h=Object(a["parseAxisParam"])(e,l.shape),b=Object(u["a"])(l,h,!0),m=Object(p["a"])(l,b),g=Object(i["a"])(m),y=Object(f["a"])(g,h),v=Object(c["a"])(y),x=Object(o["a"])(Object(d["a"])(b,v.shape),v);if(n){const t=Object(s["e"])(x.shape,h);return Object(d["a"])(x,t)}return x}const b=Object(l["a"])({logSumExp_:h})},b041:function(t,e,n){"use strict";var r=n("00ee"),a=n("f5df");t.exports=r?{}.toString:function(){return"[object "+a(this)+"]"}},b0c0:function(t,e,n){var r=n("83ab"),a=n("9bf2").f,o=Function.prototype,s=o.toString,i=/^\s*function ([^ (]*)/,c="name";r&&!(c in o)&&a(o,c,{configurable:!0,get:function(){try{return s.call(this).match(i)[1]}catch(t){return""}}})},b21c:function(t,e,n){"use strict";n.d(e,"a",(function(){return l}));var r=n("6ae2"),a=n("c05b"),o=n("76c2"),s=n("a3f7"),i=n("526f"),c=n("54ef");
 /**
  * @license
  * Copyright 2020 Google LLC. All Rights Reserved.
@@ -10659,4 +10659,4 @@ function i(t){const e=Object(o["a"])(t,"x","isFinite"),n={x:e};return r["a"].run
  * =============================================================================
  */
 function i(t){const e=Object(o["a"])(t,"x","sigmoid"),n={x:e};return r["a"].runKernelFunc((t,n)=>{const r=t.sigmoid(e);return n([r]),r},n,null,a["qc"])}const c=Object(s["a"])({sigmoid_:i})}}]);
-//# sourceMappingURL=chunk-vendors.f21df8de.js.map
+//# sourceMappingURL=chunk-vendors.335a0791.js.map
